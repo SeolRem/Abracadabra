@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abracadabra</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="container" class="header_ct">
+        <ul class="logo">
+          <h4>願いを叶えてくれる
+            <label>特別な</label>
+            ウェブアプリケーション
+          </h4>
+          <%= link_to 'Abracadabra', root_path %>
+        </ul>
+        <span class="main_title"><label>A</label> B R A C A D A B R A</span>
+        <ul class="menu">
+          <li class="menu_label">願いをかなう</li>
+          <li class="menu_label">願いを叶える</li>
+          <li class="menu_label">願いがかなう</li>
+          <li class="menu_label_last">企業支援</li>
+        </ul>
+        <ul class="login_info">
+          Guest&nbsp;&nbsp;
+          <%= link_to 'Sign up', '/sign_up/select_user' %>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrap_left">
+        <div class="title">Standard User</div>
+        <%= image_tag("background/all_user.png", :alt => "jeneral_user") %>
+        <div class="title_label">簡単に使ってみたいなら、一般ユーザー</div>
+        <div class="title_label"><%= link_to '一般ユーザーで加入', '../sign_up' %></div>
+      </div>
+      <div class="wrap_right">
+        <div class="title">Corporate User</div>
+        <%= image_tag("background/business_user.png", :alt => "jeneral_user") %>
+        <div class="title_label">企業の事業で使う目的なら、企業ユーザー</div>
+        <div class="title_label"><%= link_to '企業ユーザーで加入', '../sign_up' %></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </body>
+</html>

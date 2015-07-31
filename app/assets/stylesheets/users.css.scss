@@ -1,0 +1,151 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+#header {
+  height: 170px;
+  background-color: #f2f2f2;
+  margin-top:-8px;
+  margin-left:-8px;
+}
+
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  margin-left: 20px;
+  padding: 17px 0px;
+  list-style: none;
+  font-size: 11px;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  h4 {
+    font-weight: 500;
+    margin: 0;
+  }
+  label {
+    background-color: rgb(255, 255, 119);
+  }
+  a {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    font-size: 13px;
+  }
+}
+
+.menu, .login_info {
+  float: left;
+  margin-top: -25px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.login_info {
+  float: right;
+  margin: -135px -40px 0 0;
+}
+
+ul.menu li {
+  float: left;
+  width: 15px;
+  padding: 0 20px;
+  border-right: 1px solid grey;
+  list-style: none;
+}
+
+ul.menu li.menu_label_last {
+  border: 0px;
+}
+
+label.title {
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+span.main_title {
+  float: left;
+  padding: 17px 0px;
+  width: 550px;
+  text-align: center;
+  label {
+    font-size: 20px;
+  }
+}
+
+.container {
+  width: 1120px;
+  padding: 0 20px;
+  margin: 0px auto;
+  position: relative;
+  clear: both;
+}
+
+.header_ct {
+  padding: 50px;
+}
+
+#cover {
+  text-align: center;
+  padding: 40px;
+}
+
+.wrap_left{
+  float: left;
+  width: 360px;
+  padding: 100px;
+  div.title {
+    background-color: #F57000;
+    color: white;
+  }
+  div.title_label {
+    width: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  img {
+    margin: 30px 0 0 120px;
+  }
+}
+
+.wrap_right{
+  float: right;
+  width: 360px;
+  padding: 100px;
+  div.title {
+    background-color: #0098F5;
+    color: white;
+  }
+  div.title_label {
+    width: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  img {
+    margin: 30px 0 0 120px;
+  }
+}
+
+.title {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.actions input {
+  background-color: #009df5;
+  border: 0px;
+  border-radius: 3px;
+  color: white;
+  width: 250px;
+  padding: 8px;
+}
+
+.field input {
+}
